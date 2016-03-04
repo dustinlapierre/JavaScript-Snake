@@ -23,13 +23,14 @@ body {
     color: #ffffff;
     font-family: Verdana, arial, helvetica, sans-serif; 
     font-size: 14px;
+    background-color: #000000;
     
 }
 
-#game-area:focus { outline: none; }
+#game-area:focus { outline: none;}
 
 a.snake-link, a.snake-link:link, a.snake-link:visited {
-  color: #FCFC54; 
+  color: #FCFC54;
 }
 
 a.snake-link:hover {
@@ -58,7 +59,7 @@ a.snake-link:hover {
     font-size: 14px;
     color: #ffffff;
     text-align: center;
-    background-color: #FC5454;
+    background-color: #000000;
     padding: 8px;
     margin: 0px;
 }
@@ -66,14 +67,14 @@ a.snake-link:hover {
 .snake-snakebody-block {
     margin: 0px;
     padding: 0px;
-    background-color: #FF0000;
+    background-color: #FFFFFF;
     position: absolute;
-    border: 0px solid #000080;
+    border: 0px solid #CCC;
     background-repeat: no-repeat;
 }
 
 .snake-snakebody-alive {
-   background-image: url('./images/snakeblock.png');
+   /*background-image: url('./images/snakeblock.png');*/
 }
 .snake-snakebody-dead {
    background-image: url('./images/deadblock.png');
@@ -82,8 +83,8 @@ a.snake-link:hover {
 .snake-food-block {
     margin: 0px;
     padding: 0px;
-    background-color: #FF0000;
-    border: 0px solid #000080;
+    background-color: #00FF00;
+    border: 0px solid #DDDDDD;
     position: absolute;
 }
 
@@ -91,7 +92,7 @@ a.snake-link:hover {
     margin: 0px;
     padding: 0px;
     position: absolute;
-    background-color: #0000A8;
+    background-color: #000000;
     border: 0px solid #0000A8;
 }
 
@@ -101,14 +102,14 @@ a.snake-link:hover {
     border-width: 0px;
     border-style: none;
     zoom: 1;
-    background-color: #FC5454;
+    background-color: #FFFFFF;
     position: relative;
 }
             
 .snake-welcome-dialog {
     padding: 8px;
     margin: 0px;
-    background-color: #000000;
+    background-color: #555555;
     color: #ffffff;
     font-family: Verdana, arial, helvetica, sans-serif;
     font-size: 14px;
@@ -126,7 +127,7 @@ a.snake-link:hover {
 .snake-try-again-dialog {
     padding: 8px;
     margin: 0px;
-    background-color: #000000;
+    background-color: #555555;
     color: #ffffff;
     font-family: Verdana, arial, helvetica, sans-serif;
     font-size: 14px;

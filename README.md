@@ -1,5 +1,6 @@
 JavaScript Snake<br/>
 By Patrick Gillespie<br/>
+New theme and Gameplay Tweaks By Dustin Lapierre<br/>
 License: MIT<br/>
 http://patorjk.com/games/snake
 
